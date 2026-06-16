@@ -272,7 +272,7 @@ src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000
             <article className="bg-slate-900/40 rounded-xl border border-slate-800/80 p-4 hover:border-slate-700 transition duration-200">
               <span className="text-[10px] font-bold uppercase tracking-wider text-purple-400 bg-purple-500/10 px-2 py-0.5 rounded">Fan Gear</span>
               <h3 className="text-sm font-bold text-slate-100 mt-2 mb-1">{fullArticles.jersey.title}</h3>
-              <div className="w-full h-36 rounded-lg overflow-hidden bg-slate-950 border border-slate-800/80 mb-3 mt-2"><img src="https://images.unsplash.com/photo-1518152006812-edab29b069ac?q=80&w=800
+              <div className="w-full h-36 rounded-lg overflow-hidden bg-slate-950 border border-slate-800/80 mb-3 mt-2"><img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=800
 " alt="Guide Image" className="w-full h-full object-cover opacity-80" /></div>
               <p className="text-xs text-slate-400 leading-relaxed mb-3 line-clamp-2">
                 {fullArticles.jersey.content[0]}
@@ -289,7 +289,7 @@ src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000
             <article className="bg-slate-900/40 rounded-xl border border-slate-800/80 p-4 hover:border-slate-700 transition duration-200">
               <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded">Streaming Tips</span>
               <h3 className="text-sm font-bold text-slate-100 mt-2 mb-1">{fullArticles.vpn.title}</h3>
-              <div className="w-full h-36 rounded-lg overflow-hidden bg-slate-950 border border-slate-800/80 mb-3 mt-2"><img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=800
+              <div className="w-full h-36 rounded-lg overflow-hidden bg-slate-950 border border-slate-800/80 mb-3 mt-2"><img src="https://images.unsplash.com/photo-1633265487749-4352ba81cece?q=80&w=800
 " alt="Guide Image" className="w-full h-full object-cover opacity-80" /></div>
               <p className="text-xs text-slate-400 leading-relaxed mb-3 line-clamp-2">
                 {fullArticles.vpn.content[0]}
