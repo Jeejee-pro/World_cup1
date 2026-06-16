@@ -104,7 +104,8 @@ image: "https://images.unsplash.com/photo-1542282088-fe8426682b8f?w=600",
           {/* غلاف كأس العالم الفخم المضاف حديثاً */}
           <div className="mt-6 max-w-3xl mx-auto px-2">
             <img 
-src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=1200"
+src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000
+"
               alt="FIFA World Cup 2026 Official Live Coverage" 
               className="w-full h-44 sm:h-64 object-cover rounded-2xl opacity-90 border border-slate-800 shadow-2xl shadow-emerald-950/10" 
             />
