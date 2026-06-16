@@ -1,0 +1,4 @@
+{
+  "buildCommand": "cd world-cup-app && npm run build",
+  "outputDirectory": "world-cup-app/build"
+}
