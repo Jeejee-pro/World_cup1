@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from 'react';
 
+const todaysMatches = [
+  { id: 1, team1: "Belgium", flag1: "🇧🇪", team2: "Egypt", flag2: "🇪🇬" },
+  { id: 2, team1: "Saudi Arabia", flag1: "🇸🇦", team2: "Morocco", flag2: "🇲🇦" },
+  { id: 3, team1: "Spain", flag1: "🇪🇸", team2: "Germany", flag2: "🇩🇪" }
+];
+
 export default function WorldCupHub() {
   // حالة التصويت التفاعلي (User Poll State)
   const [voted, setVoted] = useState(false);
@@ -311,48 +317,52 @@ src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000
           <div className="h-24 flex items-center justify-center text-slate-600">[Ad Code Integration Here]</div>
         </div>
 
-                       {/* 3. SAFE MATCH PREDICTION POLL */}
-        <section className="bg-slate-900/50 rounded-2xl border border-slate-800 p-5 space-y-4 text-center" dir="ltr">
-          <div className="border-b border-slate-800 pb-2 text-left">
-            <h2 className="text-base font-bold text-white flex items-center gap-2">
-              🔮 Who Will Win Tonight?
-            </h2>
-            <p className="text-[11px] text-slate-400 mt-0.5">Vote now to see global fan predictions</p>
-          </div>
+                             {/* 3. SAFE MATCH PREDICTION POLL */}
+      <section className="bg-slate-900/50 rounded-2xl border border-slate-800 p-4">
+        <div className="border-b border-slate-800 pb-2 text-left">
+          <h2 className="text-base font-bold text-white flex items-center gap-2">
+            🔮 Who Will Win Tonight?
+          </h2>
+          <p className="text-[11px] text-slate-400 mt-0.5">Vote for your favorite team</p>
+        </div>
 
-          <div className="space-y-4 pt-1">
-            {/* أزرار تفاعلية سريعة ومستقرة تماماً ولا تسبب أي انهيار للمتصفح */}
-                        <div className="flex justify-between items-center gap-3">
-              {/* زر بلجيكا */}
+        {/* هذا الجزء يقوم بتكرار كل المباريات تلقائياً وبشكل أنيق */}
+        <div className="space-y-4 pt-3">
+          {todaysMatches.map((match) => (
+            <div key={match.id} className="flex justify-between items-center gap-2 bg-slate-850 p-2 rounded-xl border border-slate-800/40">
+              
+              {/* زر الفريق الأول */}
               <button 
-                onClick={(e) => { e.currentTarget.innerHTML = "<span class='text-xl'>🇧🇪</span><span>Belgium (55%)</span>"; }}
-                className="flex-1 p-3 rounded-xl border border-slate-800 bg-slate-950/40 hover:border-emerald-500/40 text-slate-200 font-bold text-xs flex flex-col items-center gap-1.5"
+                onClick={(e) => { e.currentTarget.innerHTML = `<span>Voted!</span>`; }}
+                className="flex-1 p-3 rounded-xl border border-slate-800 bg-slate-900 hover:bg-slate-800 text-white flex items-center justify-center gap-2 text-sm transition"
               >
-                <span className="text-xl">🇧🇪</span>
-                <span>Belgium</span>
+                <span className="text-xl">{match.flag1}</span>
+                <span>{match.team1}</span>
               </button>
 
               {/* زر التعادل */}
               <button 
-                onClick={(e) => { e.currentTarget.innerHTML = "<span>Draw (13%)</span>"; }}
-                className="p-3 rounded-xl border border-slate-800 bg-slate-950/40 hover:border-slate-600 text-slate-400 font-bold text-xs min-w-[70px]"
+                onClick={(e) => { e.currentTarget.innerHTML = `<span>Voted!</span>`; }}
+                className="p-3 rounded-xl border border-slate-800 bg-slate-900/40 hover:bg-slate-800 text-slate-400 text-xs transition"
               >
                 <span>Draw</span>
               </button>
 
-              {/* زر مصر */}
+              {/* زر الفريق الثاني */}
               <button 
-                onClick={(e) => { e.currentTarget.innerHTML = "<span class='text-xl'>🇪🇬</span><span>Egypt (32%)</span>"; }}
-                className="flex-1 p-3 rounded-xl border border-slate-800 bg-slate-950/40 hover:border-emerald-500/40 text-slate-200 font-bold text-xs flex flex-col items-center gap-1.5"
+                onClick={(e) => { e.currentTarget.innerHTML = `<span>Voted!</span>`; }}
+                className="flex-1 p-3 rounded-xl border border-slate-800 bg-slate-900 hover:bg-slate-800 text-white flex items-center justify-center gap-2 text-sm transition"
               >
-                <span className="text-xl">🇪🇬</span>
-                <span>Egypt</span>
+                <span className="text-xl">{match.flag2}</span>
+                <span>{match.team2}</span>
               </button>
+
             </div>
-            
-            <p className="text-[10px] text-slate-500">Click on your favorite team to cast a quick vote</p>
-          </div>
-        </section> 
+          ))}
+        </div>
+
+        <p className="text-[10px] text-slate-500 mt-3 text-center">Click on your prediction to cast your vote</p>
+      </section>
 
       </main>
 
