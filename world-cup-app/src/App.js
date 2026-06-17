@@ -158,8 +158,17 @@ src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000
             <div className="flex gap-3 bg-slate-900 p-3 rounded-xl border border-slate-800/60 items-start">
               <span className="flex-shrink-0 w-6 h-6 rounded-full bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-xs mt-0.5">1</span>
               <p className="text-xs text-slate-300 leading-normal">
-                Launch a secure, high-speed VPN app (We highly recommend <strong className="text-emerald-400 font-bold">NordVPN</strong> to guarantee zero buffering and crisp 4K streaming during live matches).
-              </p>
+              Launch a secure, high-speed VPN app (We highly recommend{" "}
+              <a
+                href="https://amzn.to/4vQ8R9H"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-emerald-400 hover:text-emerald-300 font-bold underline transition"
+              >
+                NordVPN
+              </a>{" "}
+              to guarantee zero buffering and crisp 4K streaming during live matches).
+            </p>
             </div>
             <div className="flex gap-3 bg-slate-900 p-3 rounded-xl border border-slate-800/60 items-start">
               <span className="flex-shrink-0 w-6 h-6 rounded-full bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-xs mt-0.5">2</span>
