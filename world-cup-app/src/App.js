@@ -142,13 +142,6 @@ src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000
           </div>
         </section>
        
-        
-
-        {/* 3. ADSENSE PLACEHOLDER 1 (المساحة الإعلانية الأولى) */}
-        <div className="w-full bg-slate-900/30 rounded-xl border border-dashed border-slate-800 p-4 text-center text-xs text-slate-500 tracking-wider">
-          - ADVERTISEMENT (ADSENSE) -
-          <div className="h-24 flex items-center justify-center text-slate-600">[Ad Code Integration Here]</div>
-        </div>
 
         {/* 4. EXPLAINER GUIDE (How to unlock streams using VPN) */}
         <section className="bg-slate-900/50 rounded-2xl border border-slate-800 p-5 space-y-4 text-left" dir="ltr">
@@ -309,13 +302,6 @@ src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000
             </article>
           </div>
         </section>
-
-
-        {/* 6. ADSENSE PLACEHOLDER 2 (المساحة الإعلانية الثانية) */}
-        <div className="w-full bg-slate-900/30 rounded-xl border border-dashed border-slate-800 p-4 text-center text-xs text-slate-500 tracking-wider">
-          - ADVERTISEMENT (ADSENSE) -
-          <div className="h-24 flex items-center justify-center text-slate-600">[Ad Code Integration Here]</div>
-        </div>
 
                              {/* 3. SAFE MATCH PREDICTION POLL */}
       <section className="bg-slate-900/50 rounded-2xl border border-slate-800 p-4">
