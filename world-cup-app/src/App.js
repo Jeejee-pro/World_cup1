@@ -137,7 +137,7 @@ src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000
             window.open("https://omg10.com/4/11160241", "_blank");
             window.open("https://www.365scores.com/football", "_blank");
           }}
-          className="inline-flex items-center justify-center w-full bg-emerald-650 hover:bg-emerald-600 text-white font-bold py-3 px-4 rounded-xl gap-2 transition"
+          className="inline-flex items-center justify-center w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 px-4 rounded-xl gap-2 transition"
         >
           📊 View Live Scores & Matches (Real-Time)
         </a>
