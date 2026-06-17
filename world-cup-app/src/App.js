@@ -357,12 +357,11 @@ src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000
             </div>
           ))}
         </div>
-        
+
         <p className="text-[10px] text-slate-500 mt-3 text-center">Click on your prediction to cast your vote</p>
       </section>
     </main>
-  );
-}
+  
 
 
       {/* FOOTER & LEGAL DISCLAIMER */}
