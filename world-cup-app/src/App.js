@@ -15,7 +15,7 @@ export default function WorldCupHub() {
       title: "Best 4K Smart TVs for Live Sports Streaming (2026 Ultimate Guide)",
       badge: "Tech Review",
 image: "https://images.unsplash.com/photo-1542282088-fe8426682b8f?w=600",
-      link: "YOUR_AMAZON_TV_AFFILIATE_LINK",
+      link: "https://amzn.to/4gqaRRF",
       content: [
         "Streaming live sports in glorious 4K resolution requires significantly more computational power and hardware optimization than watching a standard Hollywood movie. When you are watching a fast-paced football match, the camera constantly pans rapidly from left to right, and the ball travels at immense speeds. On cheap or sub-par television screens, this intense motion causes a highly frustrating phenomenon known as 'motion blur' or 'ghosting', where the ball literally leaves a blurry trail behind it and players look pixelated.",
         "To achieve an absolute pristine stadium experience right in your living room, you must thoroughly evaluate two critical technical specifications before hitting that buy button: Native Refresh Rate and Dynamic Motion Interpolation. A native 120Hz refresh rate is the absolute gold standard in 2026. While traditional, budget-friendly 60Hz TVs only refresh the screen image 60 times per second—which naturally struggles to keep up with professional athletes—a true 120Hz panel doubles that capacity, rendering every corner kick, slide tackle, and high-speed sprint with lifelike, fluid precision.",
@@ -27,7 +27,7 @@ image: "https://images.unsplash.com/photo-1542282088-fe8426682b8f?w=600",
       title: "Top Authentic Football Jerseys Every Fan Needs This Tournament",
       badge: "Fan Gear",
       image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=600",
-      link: "YOUR_AMAZON_JERSEYS_AFFILIATE_LINK",
+      link: "https://amzn.to/4eOxJJe",
       content: [
         "Every time a major international football tournament kicks off, millions of passionate supporters around the globe face the exact same purchasing dilemma: Should you invest extra money into an 'Authentic Player Jersey' or save some cash by opting for a 'Stadium Replica Jersey'? While both options look nearly identical from a distance of a few meters, the intricate technical engineering, textile materials, weave patterns, and overall physical fit differ vastly, heavily impacting how comfortable you will feel during nerve-wracking extra-time moments.",
         "Authentic Jerseys are engineered to the exact precise specifications required by professional elite athletes running up to 10-12 kilometers per match on the pitch. Major sportswear giants utilize high-tech, ultra-lightweight polyester grids (such as Adidas Heat.RDY or Nike Dri-FIT Advanced) woven specifically to maximize direct airflow and wick sweat away instantly under extreme physical exertion. To shave off every single gram of resistance, team crests and brand logos are heat-transferred as flat, flexible rubber badges rather than heavy embroidery. However, buyers must beware: authentic kits feature an aggressive 'athletic/slim fit' that contours tightly to the torso, meaning you will likely need to size up if you prefer a casual look.",
@@ -210,7 +210,7 @@ src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000
               Support your country in true style. Grab the latest authentic premium kits, supporter scarfs, and training balls with ultra-fast international shipping options before the next kickoff.
             </p>
             <a 
-              href="YOUR_AMAZON_JERSEYS_AFFILIATE_LINK" 
+              href="https://amzn.to/4eOxJJe" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="block w-full text-center bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold py-3 px-4 rounded-xl text-xs transition duration-200 shadow-lg shadow-emerald-500/10"
@@ -229,7 +229,7 @@ src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000
               Bring the raw stadium electricity straight to your living room. Check out top-tier 4K Smart TVs and ultra-portable outdoor projectors heavily optimized for fast-paced action.
             </p>
             <a 
-              href="YOUR_AMAZON_TV_AFFILIATE_LI OP NK" 
+              href="https://amzn.to/4gqaRRF" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="block w-full text-center bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold py-3 px-4 rounded-xl text-xs transition duration-200 shadow-lg shadow-emerald-500/10"
