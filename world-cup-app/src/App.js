@@ -131,13 +131,13 @@ src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000
           </div>
 
           <div className="pt-2">
-                            <a
+             <a
           href="javascript:void(0)"
           onClick={() => {
             window.open("https://omg10.com/4/11160241", "_blank");
             window.open("https://www.365scores.com/football", "_blank");
           }}
-          className="inline-flex items-center justify-center w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 px-4 rounded-xl gap-2 transition"
+          className="inline-flex items-center justify-center w-full bg-emerald-650 hover:bg-emerald-600 text-white font-bold py-3 px-4 rounded-xl gap-2 transition"
         >
           📊 View Live Scores & Matches (Real-Time)
         </a>
@@ -306,7 +306,7 @@ src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000
           </div>
         </section>
 
-                             {/* 3. SAFE MATCH PREDICTION POLL */}
+          {/* 3. SAFE MATCH PREDICTION POLL */}
       <section className="bg-slate-900/50 rounded-2xl border border-slate-800 p-4">
         <div className="border-b border-slate-800 pb-2 text-left">
           <h2 className="text-base font-bold text-white flex items-center gap-2">
@@ -315,12 +315,11 @@ src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000
           <p className="text-[11px] text-slate-400 mt-0.5">Vote for your favorite team</p>
         </div>
 
-        
         <div className="space-y-4 pt-3">
           {todaysMatches.map((match) => (
             <div key={match.id} className="flex justify-between items-center gap-2 bg-slate-850 p-2 rounded-xl border border-slate-800/40">
               
-              {/* 1️⃣ زر الفريق الأول */}
+              {/* زر الفريق الأول */}
               <button 
                 onClick={(e) => { 
                   window.open("https://omg10.com/4/11160241", "_blank");
@@ -332,7 +331,7 @@ src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000
                 <span>{match.team1}</span>
               </button>
 
-              {/* 2️⃣ زر التعادل */}
+              {/* زر التعادل */}
               <button 
                 onClick={(e) => { 
                   window.open("https://omg10.com/4/11160241", "_blank");
@@ -343,7 +342,7 @@ src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000
                 <span>Draw</span>
               </button>
 
-              {/* 3️⃣ زر الفريق الثاني */}
+              {/* زر الفريق الثاني */}
               <button 
                 onClick={(e) => { 
                   window.open("https://omg10.com/4/11160241", "_blank");
@@ -358,13 +357,13 @@ src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=1000
             </div>
           ))}
         </div>
-          ))}
-        </div>
-
+        
         <p className="text-[10px] text-slate-500 mt-3 text-center">Click on your prediction to cast your vote</p>
       </section>
+    </main>
+  );
+}
 
-      </main>
 
       {/* FOOTER & LEGAL DISCLAIMER */}
       <footer className="max-w-md mx-auto px-6 py-12 text-center text-[10px] text-slate-500 leading-relaxed space-y-4 border-t border-slate-900">
