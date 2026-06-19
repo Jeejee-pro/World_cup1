@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
 const todaysMatches = [
-  { id: 1, team1: "Czechia", flag1: "🇨🇿", team2: "South Africa", flag2: "🇿🇦" },
-  { id: 2, team1: "Switzerland", flag1: "🇨🇭", team2: "Bosnia and Herzegovina", flag2: "🇧🇦" }
+  { id: 1, team1: "Mixico", flag1: "🇲🇽", team2: "South Korea", flag2: "🇰🇷" },
+  { id: 2, team1: "Usa", flag1: "🇺🇸", team2: "Australia", flag2: "🇦🇺" }
 ];
 
 export default function WorldCupHub() {
